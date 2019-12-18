@@ -1,0 +1,2 @@
+python run_classifier.py --data_dir=data/Thu/ --task_name=thu --vocab_file=./chinese_L-12_H-768_A-12/vocab.txt --bert_config_file=./chinese_L-12_H-768_A-12/bert_config.json --output_dir=./output/ --do_train=true --do_eval=true --init_checkpoint=./chinese_L-12_H-768_A-12/bert_model.ckpt --max_seq_length=200 --train_batch_size=16 --learning_rate=5e-5 --num_train_epoch=3
+@pause
